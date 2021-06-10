@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+body {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    font-family: Share;
+    font-size: large;
+    height: 1024px;
+
+}
+
+main {
+    margin-top: 10px;
+}
+
+nav#mainNav {
+    padding: 35px 50px;
+    background-color: white;
+}
+
+section#mainSection {
+    align-items: center;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+.entrarBtn {
+    color: white;
+    width: 180px;
+    height: 49px;
+    left: 1122px;
+    top: 52px;
+    background: #B52727;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.mainBtn {
+    margin: 2rem 0;
+    background: #B52727;
+    color: white;
+    /* box-sizing: border-box; */
+    border-radius: 2px;
+
+}
+
+span#concluido-text {
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+/* parte do lado direito após nav */
+article#ciaIdea {
+    padding-top: 1rem;
+}
+
+#ciaIdea>p {
+    text-align: justify;
+}
+
+#ciaIdea-strong-description {
+    font-weight: bold;
+    font-size: 39.344px;
+    line-height: 44px;
+    text-align: center;
+    text-indent: 5.24587px;
+}
+
+
+.ciaIdea-form {
+    padding: 2.5rem 0;
+}
+
+.ciaIdea-form>input {
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: .5ch;
+    height: 2.5rem;
+}
+
+.btnSearch {
+    position: absolute;
+    border: none;
+    margin-top: -0px;
+}
+
+.container-acess {
+    color: white;
+    text-align: center;
+    top: 800px;
+    background: #2E2E32;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 5rem;
+}
+
+.container-logistaCliente {
+    margin: 5rem 0;
+    font-size: xx-large;
+}
+
+/*SPECIFICS*/
+.findForBuy-text {
+    color: #720000;
+    align-items: center;
+
+}
+
+#findForBuy-icon {
+    height: 50%;
+    width: 75%;
+    text-align: center;
+    align-self: center;
+}
+
+.accessOptions {
+
+    padding-top: 50px;
+}
+
+
+.accessParagraph {
+    /* Acesse como: */
+    height: 50%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 72px; */
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.produtoParagraph {
+    font-weight: bold;
+    font-size: 104.625px;
+    line-height: 118px;
+    text-align: center;
+
+    color: #2F6F50;
+
+}
+
+.loginTitle {
+    font-weight: bold;
+
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 171.429px;
+
+    text-align: center;
+}
+
+
+div.searchParagraph {
+    align-items: center;
+    align-self: center;
+}
+
+.mainLoginCliente {
+    background: #E8E8E8;
+    /* background: gray; */
+}
+
+
+article#productsImg {
+    padding: 50px 0;
+
+}
+
+
+/* cliente-cadastro.html */
+
+article#loginForm input {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    border: 5px #2E2E32 solid;
+
+}
+
+article#loginForm label {
+    font-size: 25px;
+}
+
+article#loginForm a {
+    font-size: 18px;
+}
+
+.loginForm-clientType-span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 171.429px;
+    line-height: 193px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#login-img {
+    /* background-image: none; */
+    width: 100%;
+}
+
+#containerPart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-size: cover;
+    padding-bottom: 500px;
+    background-image: url('abtract.jpg')
+    
+}
+
+
+.img-fluid-home {
+    border-radius: 0px 174.404px;
+    width: 500px;
+    height: 500px;
+}
+
+.img-fluid-search {
+    border-radius: 125.733px;
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    
+}
+
+.vertical-line {
+    border-left: 1px solid rgba(96, 96, 96, 0.5);
+    height: 40px;
+    padding: 3%;
+  
+  } 
+  
+  
+  
+  
+.image {
+  background-color: rgb(244, 244, 244); /* cor do container */
+  border: 8px solid #807f7f; /* borda */
+  padding: 2%; /* distancia do conteudo para os componenentes */
+  margin: 5% 34% 1% 34%; /* margin */ 
+  border-radius: 5px;
+  
+}
+
+.image-bloco {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+.blocos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #ddd;
+}
+  
+  
+.button-return {
+  background-color: red;
+  border: 0px none;
+  padding: 33% 0% 5px;
+  border-radius: 5px;
+  align-items: flex-start;
+  justify-content: space-between;
+ }
+  
+#return {
+  background-color: rgb(186, 48, 48);
+  align-items: center;
+  padding: 5px 28px;
+  
+  }
+  
+.button-return {
+    width: 100%;
+}
+
+.attention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+}
+
+.att-text {
+    padding: 1%;
+    color: rgb(175, 116, 4);
+}
